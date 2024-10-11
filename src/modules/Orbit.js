@@ -1,3 +1,15 @@
+/**
+ * Orbit.js
+ *
+ * 该文件定义了一个Orbit类，用于计算卫星的轨道信息。
+ * 其中方法包括：
+ * - 计算卫星的轨道周期 “orbitalPeriod”
+ * - 计算卫星位置 “positionECI”（地心惯性坐标系）
+ * - 计算卫星位置 “positionECF”（地心固定坐标系）
+ * - 计算卫星位置 “positionGeodetic”（大地坐标系）
+ * - 计算卫星通过 “computePassesElevation”
+ */
+
 import * as satellitejs from "satellite.js";
 import dayjs from "dayjs";
 

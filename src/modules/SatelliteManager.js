@@ -1,3 +1,19 @@
+/**
+ * SatelliteManager.js
+ *
+ * 该文件定义了一个SatelliteManager类，用于管理卫星的显示和隐藏。
+ * 其中方法包括：
+ * - 从TLE URL添加卫星 “addFromTleUrl”
+ * - 从TLE添加卫星 “addFromTle”
+ * - 添加卫星 “#add”
+ * - 更新store “updateStore”
+ * - 获取带有标签的卫星 “getSatellitesWithTag”
+ * - 获取卫星 “getSatellite”
+ * - 获取启用的卫星 “enabledSatellites”
+ * - 设置启用的卫星 “enabledSatellites”
+ * - 获取标签 “tags”
+ *
+ */
 import { SatelliteComponentCollection } from "./SatelliteComponentCollection";
 import { GroundStationEntity } from "./GroundStationEntity";
 

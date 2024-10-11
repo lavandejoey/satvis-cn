@@ -1,3 +1,15 @@
+/**
+ * GroundStationEntity.js
+ *
+ * 该文件定义了一个GroundStationEntity类，该类继承自CesiumComponentCollection类。
+ * GroundStationEntity类用于创建地面站实体，包括地面站的图标和描述。
+ * 其中方法包括：
+ * - 创建地面站实体 “createEntities”
+ * - 创建地面站图标 “createGroundStation”
+ * - 创建地面站描述 “createDescription”
+ * - 计算通过时间 “passes”
+ * - 生成描述内容 “createDescription”
+ */
 import * as Cesium from "@cesium/engine";
 import dayjs from "dayjs";
 import { CesiumComponentCollection } from "./util/CesiumComponentCollection";

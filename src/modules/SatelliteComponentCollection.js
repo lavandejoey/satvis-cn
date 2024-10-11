@@ -1,3 +1,30 @@
+/**
+ * SatelliteComponentCollection.js
+ *
+ * 该文件定义了一个SatelliteComponentCollection类，该类继承自CesiumComponentCollection类。
+ * SatelliteComponentCollection类用于创建卫星实体，包括卫星的图标、轨道、地面轨迹、传感器锥体、3D模型等。
+ * 其中方法包括：
+ * - 初始化 “init”
+ * - 反初始化 “deinit”
+ * - 更新卫星位置 “updatedSampledPositionForComponents”
+ * - 创建组件 “createComponent”
+ * - 创建描述 “createDescription”
+ * - 创建Cesium卫星实体 “createCesiumSatelliteEntity”
+ * - 创建点 “createPoint”
+ * - 创建盒子 “createBox”
+ * - 创建模型 “createModel”
+ * - 创建标签 “createLabel”
+ * - 创建轨道 “createOrbit”
+ * - 创建轨道路径 “createOrbitPath”
+ * - 创建轨道折线 “createOrbitPolylinePrimitive”
+ * - 创建轨道折线几何 “createOrbitPolylineGeometry”
+ * - 创建轨道轨迹 “createOrbitTrack”
+ * - 创建地面轨迹 “createGroundTrack”
+ * - 创建传感器锥体 “createCone”
+ * - 创建地面站链接 “createGroundStationLink”
+ * - 设置地面站 “groundStation”
+ * - 计算通过时间 “passes”
+ */
 import * as Cesium from "@cesium/engine";
 import CesiumSensorVolumes from "cesium-sensor-volumes";
 
