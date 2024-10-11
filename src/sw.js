@@ -1,3 +1,9 @@
+/**
+ * sw.js
+ *
+ * 该文件定义了一个 Service Worker，用于支持离线功能和 PWA（渐进式 Web 应用）。
+ *
+ */
 import { clientsClaim } from "workbox-core";
 import { registerRoute } from "workbox-routing";
 import { CacheFirst } from "workbox-strategies";

@@ -1,3 +1,13 @@
+/**
+ * CesiumTimelineHelper.js
+ *
+ * 该文件定义了一个CesiumTimelineHelper类，用于管理Cesium时间轴。
+ * 包括方法：
+ * - clearHighlightRanges: 清除所有高亮范围
+ * - addHighlightRanges: 添加高亮范围
+ * - updateHighlightRanges: 更新高亮范围
+ *
+ */
 import * as Cesium from "@cesium/engine";
 
 export class CesiumTimelineHelper {

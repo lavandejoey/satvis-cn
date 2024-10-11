@@ -1,3 +1,9 @@
+/**
+ * benchmark.js
+ *
+ * 该文件定义了一个测试函数，用于测试卫星显示的性能。
+ * 该函数通过在浏览器控制台中运行，测试不同组件和卫星数量的性能。
+ */
 // Paste into browser console in a clean session without satellites visible
 cc.enablePerformanceStats();
 const satelliteTag = "Active";

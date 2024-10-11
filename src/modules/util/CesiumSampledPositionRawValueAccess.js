@@ -1,3 +1,12 @@
+/**
+ * CesiumSampledPositionRawValueAccess.js
+ *
+ * 该文件定义了一个SampledPositionProperty类的扩展，用于获取原始值。
+ * 包括方法：
+ * - getRawValues: 获取指定时间范围内的原始值
+ * - length: 获取样本属性中存储的样本数
+ *
+ */
 import { SampledPositionProperty, binarySearch, JulianDate } from "cesium";
 /* eslint-disable func-names, no-underscore-dangle, no-bitwise */
 

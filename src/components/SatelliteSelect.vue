@@ -1,3 +1,5 @@
+<!-- SatelliteSelect.vue -->
+<!-- 这是一个多选组件，用于选择卫星组和卫星。 -->
 <template>
   <div class="satellite-select">
     <div class="toolbarTitle">

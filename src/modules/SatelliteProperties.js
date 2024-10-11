@@ -1,3 +1,27 @@
+/**
+ * SatelliteProperties.js
+ *
+ * 该文件定义了一个SatelliteProperties类，用于管理卫星的属性。
+ * 其中方法包括：
+ * - 构造函数 "constructor"
+ * - 判断是否有标签 "hasTag"
+ * - 添加标签 "addTags"
+ * - 获取位置 "position"
+ * - 获取下一个轨道的采样位置 "getSampledPositionsForNextOrbit"
+ * - 创建采样位置 "createSampledPosition"
+ * - 更新采样位置 "updateSampledPosition"
+ * - 初始化采样位置 "initSampledPosition"
+ * - 添加采样位置 "addSamples"
+ * - 计算惯性坐标系下的位置 "computePositionInertialTEME"
+ * - 计算位置 "computePosition"
+ * - 计算地面轨迹 "groundTrack"
+ * - 获取地面站是否可用 "groundStationAvailable"
+ * - 更新通过 "updatePasses"
+ * - 清除通过 "clearPasses"
+ * - 计算通过时间 "computePassIntervals"
+ * - 通知通过 "notifyPasses"
+ * - 获取扫描宽度 "swath"
+ */
 import * as Cesium from "@cesium/engine";
 import dayjs from "dayjs";
 import { useToast } from "vue-toastification";

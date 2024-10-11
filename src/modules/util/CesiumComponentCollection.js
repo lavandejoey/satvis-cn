@@ -1,3 +1,27 @@
+/**
+ * CesiumComponentCollection.js
+ *
+ * 该文件定义了一个CesiumComponentCollection类，用于管理Cesium实体和基元。
+ * 包括方法：
+ * - constructor: 构造函数
+ * - components: 获取所有组件
+ * - componentNames: 获取所有组件名称
+ * - created: 判断是否已创建组件
+ * - show: 显示组件
+ * - hide: 隐藏组件
+ * - enableComponent: 启用组件
+ * - disableComponent: 禁用组件
+ * - recreateGeometryInstancePrimitive: 重新创建几何实例基元
+ * - visibleComponents: 获取所有可见组件
+ * - isSelected: 判断是否选中
+ * - isTracked: 判断是否跟踪
+ * - track: 跟踪
+ * - setSelectedOnTickCallback: 设置选中回调
+ * - setTrackedOnTickCallback: 设置跟踪回调
+ * - artificiallyTrack: 人工跟踪
+ * - createCesiumEntity: 创建Cesium实体
+ *
+ */
 import * as Cesium from "@cesium/engine";
 
 import { CesiumCallbackHelper } from "./CesiumCallbackHelper";

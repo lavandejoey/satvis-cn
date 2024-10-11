@@ -1,3 +1,10 @@
+/**
+ * pinia-plugin-url-sync.ts
+ *
+ * 该插件用于将 store 中的状态同步到 url 参数中，以便在页面刷新时恢复状态。
+ * 当用户在页面中选择了一些筛选条件，刷新页面后，这些筛选条件会被保存在 url 中。
+ *
+ */
 import { PiniaPluginContext } from "pinia";
 
 export interface SyncConfigEntry {

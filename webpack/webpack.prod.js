@@ -1,3 +1,9 @@
+/**
+ * webpack.prod.js
+ *
+ * 该文件定义了生产环境的webpack配置。
+ *
+ */
 const path = require("path");
 const { merge } = require("webpack-merge");
 

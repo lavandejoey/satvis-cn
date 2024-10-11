@@ -1,3 +1,8 @@
+/**
+ * sat.js
+ *
+ * 该文件定义了一个SatStore变量，用于管理卫星的状态。
+ */
 import { defineStore } from "pinia";
 
 export const useSatStore = defineStore("sat", {

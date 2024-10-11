@@ -1,3 +1,12 @@
+/**
+ * CesiumCallbackHelper.js
+ *
+ * 该文件定义了一个CesiumCallbackHelper类，用于管理Cesium回调。
+ * 包括方法：
+ * - createPeriodicTickCallback: 创建周期性刻度回调
+ * - createPeriodicTimeCallback: 创建周期性时间回调
+ *
+ */
 import * as Cesium from "cesium";
 
 export class CesiumCallbackHelper {

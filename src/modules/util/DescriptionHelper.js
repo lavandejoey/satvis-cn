@@ -1,3 +1,15 @@
+/**
+ * DescriptionHelper.js
+ *
+ * 该文件定义了一个DescriptionHelper类，用于生成实体的描述信息。
+ * 包括方法：
+ * - cachedCallbackProperty: 缓存回调函数的结果
+ * - renderDescription: 生成实体的描述信息
+ * - renderPasses: 生成实体的通行信息
+ * - renderPass: 生成实体的通行信息
+ * - renderTLE: 生成实体的TLE信息
+ *
+ */
 import * as Cesium from "@cesium/engine";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";

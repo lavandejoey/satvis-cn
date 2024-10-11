@@ -1,3 +1,14 @@
+/**
+ * app.js
+ *
+ * 该文件是整个应用的入口文件，定义了 Vue 应用的初始化逻辑。
+ * 其中包括步骤：
+ * 1. 导入 Vue 相关依赖 （Vue, Pinia, Workbox, PrimeVue, FontAwesome, VueToastification）
+ * 2. 导入自定义的 CesiumController 类
+ * 3. 定义 satvisSetup 函数，用于初始化 Vue 应用
+ * 4. 导出 satvisSetup 函数，作为默认导出
+ *
+ */
 import { createApp, markRaw } from "vue";
 import { createPinia } from "pinia";
 import { Workbox } from "workbox-window";

@@ -1,3 +1,19 @@
+/**
+ * DeviceDetect.js
+ *
+ * 该文件定义了一个DeviceDetect类，用于检测设备信息。
+ * 包括方法：
+ * - inIframe: 判断是否在iframe中
+ * - hasTouch: 判断是否支持触摸
+ * - canHover: 判断是否支持hover
+ * - isIos: 判断是否是iOS设备
+ * - isSafari: 判断是否是Safari浏览器
+ * - isInStandaloneMode: 判断是否在standalone模式下
+ * - isiPhoneWithNotch: 判断是否是带刘海的iPhone
+ * - isiPhoneWithNotchVisible: 判断带刘海的iPhone是否可见
+ * - getiPhoneModel: 获取iPhone型号
+ *
+ */
 export class DeviceDetect {
   static inIframe() {
     try {

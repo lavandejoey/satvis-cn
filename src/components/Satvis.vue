@@ -1,3 +1,6 @@
+<!--Satvis.vue-->
+<!-- 这是一个包含了多个组件的组件，它是一个工具栏，用于控制地图的显示。 -->
+<!-- 该组件包含了一个工具栏，用于控制地图的显示。其中，包含了多个按钮，用于控制地图的显示。 -->
 <template>
   <div class="cesium">
     <div v-show="showUI" id="toolbarLeft">

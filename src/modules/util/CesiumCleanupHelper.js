@@ -1,3 +1,8 @@
+/**
+ * CesiumCleanupHelper.js
+ *
+ * 该文件定义了一个CesiumCleanupHelper类，用于清理Cesium内部数据。
+ */
 import { CesiumCallbackHelper } from "./CesiumCallbackHelper";
 
 export class CesiumCleanupHelper {

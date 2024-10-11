@@ -1,3 +1,15 @@
+/**
+ * CesiumPerformanceStats.js
+ *
+ * 该文件定义了一个CesiumPerformanceStats类，用于记录Cesium性能统计信息。
+ * 包括方法：
+ * - constructor: 构造函数
+ * - calculateStats: 计算性能统计信息
+ * - reset: 重置性能统计信息
+ * - getStats: 获取性能统计信息
+ * - formatStats: 格式化性能统计信息
+ *
+ */
 import { getTimestamp } from "cesium";
 
 // A Cesium Performance Monitor that logs avarage and worst performance over a sample period

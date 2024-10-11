@@ -1,3 +1,9 @@
+/**
+ * webpack.stats.js
+ *
+ * 该文件定义了生产环境的webpack配置，用于生成构建报告。
+ *
+ */
 const path = require("path");
 const { merge } = require("webpack-merge");
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");

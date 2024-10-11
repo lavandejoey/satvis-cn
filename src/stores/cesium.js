@@ -1,3 +1,8 @@
+/**
+ * Cesium.js
+ *
+ * 该文件定义了一个CesiumStore变量，用于管理Cesium Viewer的状态。
+ */
 import { defineStore } from "pinia";
 
 export const useCesiumStore = defineStore("cesium", {

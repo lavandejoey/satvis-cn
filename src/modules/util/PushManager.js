@@ -1,3 +1,17 @@
+/**
+ * PushManager.js
+ *
+ * 该文件定义了一个PushManager类，用于管理浏览器推送通知。
+ * 包括方法：
+ * - available: 判断浏览器是否支持推送通知
+ * - requestPermission: 请求推送通知权限
+ * - active: 判断是否存在定时器
+ * - clearTimers: 清除所有定时器
+ * - persistentNotification: 发送持久通知
+ * - notifyInMs: 在指定时间后发送通知
+ * - notifyAtDate: 在指定日期时间发送通知
+ *
+ */
 import dayjs from "dayjs";
 
 export class PushManager {

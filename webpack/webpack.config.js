@@ -1,3 +1,14 @@
+/**
+ * webpack.config.js
+ *
+ * 该文件定义了 webpack 的配置，用于构建整个应用。
+ * 其中包括步骤：
+ * 1. 导入 webpack 相关依赖
+ * 2. 定义 basePath 变量，用于指定项目根目录
+ * 3. 定义 cesiumEngineSource 和 cesiumWidgetsSource 变量，用于指定 Cesium 引擎和部件的源码目录
+ * 4. 导出 webpack 配置对象
+ *
+ */
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");

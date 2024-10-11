@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+/**
+ * update-tle.js
+ *
+ * 这个脚本用于下载 TLE 数据。
+ *
+ */
 
 const https = require("https");
 const fs = require("fs");
